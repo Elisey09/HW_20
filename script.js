@@ -1,8 +1,5 @@
-// function calcFactorialBegInt (x) {
-//     return (x != 1n) ? x * calcFactorialBegInt(x-1n) : 1n
-// }
-// console.log( calcFactorialBegInt(15n));
-
 const factorial = (n) => (!(n > 1) ? 1 : factorial(n - 1) * n);
 
-console.log(6);
+console.log(factorial(3));
+console.log(factorial(6));
+console.log(factorial(9));
